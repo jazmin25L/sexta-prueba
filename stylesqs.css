@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFFFFF; /* Color de fondo azul claro */
+  color: #000; /* Color del texto negro */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2C9AB7; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #92DDF7; /* Color de fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, p {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #5DCDDF; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+

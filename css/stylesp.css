@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.producto {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  width: 30%;
+}
+
+footer {
+  background-color: #5dcddf;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* Estilo para las imágenes de productos */
+.producto-img {
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Para mantener la proporción de la imagen */
+}
+
+/* Estilo para cambiar de color al señalar con el mouse */
+.productos-container:hover {
+  background-color: #22B4A6; /* Cambiar a tu color deseado */
+}
+
+.sustituida-modificada {
+        box-sizing:border-box;
+        display:block;
+        width:115px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+        height:115px;       /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+        padding-left:115px; /*Padding igual al ancho de la imagen nueva*/
+        background: url(img/6.png);
+    }
+
